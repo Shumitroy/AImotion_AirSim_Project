@@ -1,7 +1,4 @@
-"""
-Central configuration for the AirSim project.
-Adjust these values to match your setup.
-"""
+
 
 from dataclasses import dataclass
 
