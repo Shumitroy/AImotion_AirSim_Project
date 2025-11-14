@@ -1,12 +1,3 @@
-"""
-Prototype of an adaptive camera pipeline.
-
-For now:
- - Changes resolution and FOV based on speed.
- - Captures a few images at each setting.
-
-Later you can connect this logic to a learned policy or RL agent.
-"""
 
 from __future__ import annotations
 
@@ -14,7 +5,7 @@ import os
 from pathlib import Path
 from typing import Tuple
 
-import airsim  # type: ignore
+import airsim  
 import numpy as np
 
 from config import CONFIG
@@ -95,7 +86,7 @@ def run_adaptive_camera_demo() -> None:
         vehicle_name=CONFIG.vehicle_name,
     ).join()
 
-    # Example: two "speed regimes" with different camera settings.
+   
     regimes = [
         {
             "speed": 1.0,  # slow
@@ -120,7 +111,7 @@ def run_adaptive_camera_demo() -> None:
         print(f"\n[Regime: {label}] speed={v}, res={res}, fov={fov}")
         _set_camera(client, res, fov)
 
-        # Move straight for a bit while capturing images.
+        
         client.moveByVelocityAsync(
             v,
             0.0,
