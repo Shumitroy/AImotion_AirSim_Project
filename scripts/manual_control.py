@@ -1,25 +1,14 @@
-"""
-Very simple manual control loop for an AirSim multirotor.
-
-This is a console-based placeholder:
- - It connects to the simulator.
- - You type commands like: w/a/s/d/q/e/x
- - The drone moves accordingly.
-
-Later you can replace this with a proper keyboard listener (e.g. pygame).
-"""
 
 from __future__ import annotations
 
 import time
 from typing import Dict
 
-import airsim  # type: ignore
+import airsim 
 
 from config import CONFIG
 
 
-# Map simple keys to velocity vectors: (vx, vy, vz, yaw_rate)
 KEY_COMMANDS: Dict[str, tuple[float, float, float, float]] = {
     "w": (1.0, 0.0, 0.0, 0.0),   # forward
     "s": (-1.0, 0.0, 0.0, 0.0),  # backward
