@@ -1,11 +1,3 @@
-"""
-Entry point for the AirSim project.
-
-Usage (examples):
-    python main.py --mode manual
-    python main.py --mode stable
-    python main.py --mode adaptive_cam
-"""
 
 import argparse
 
