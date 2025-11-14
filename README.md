@@ -1,5 +1,6 @@
 ﻿# AirSim_Project
-# Autonomous Drone Simulation Platform (AirSim + Unreal Engine)
+# Autonomous Drone Simulation Platform (AirSim + Unreal Engine) 
+# Autonomous drone navigation in GPS denied area
 
 A modular, high-fidelity drone simulation framework built on **Microsoft AirSim** and **Unreal Engine**.  
 Designed for research and engineering in autonomous flight, adaptive perception, and AI-driven navigation.
@@ -75,3 +76,19 @@ Python 3.8+
 Microsoft AirSim
 
 Unreal Engine environment or AirSim Blocks environment
+
+This repository serves as a foundation for:
+
+Autonomous drone navigation in GPS denied area
+
+Reinforcement learning in simulation
+
+Adaptive perception systems
+
+High-quality dataset generation
+
+Real-to-sim and sim-to-real research
+
+AI-driven robotics prototyping
+
+The project is designed to grow into a fully customizable autonomy research environment.
