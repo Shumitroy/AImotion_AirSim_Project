@@ -1,4 +1,4 @@
-﻿# AirSim_Project
+﻿# AImotion_AirSim_Project
 # Autonomous Drone Simulation Platform (AirSim + Unreal Engine) 
 # Autonomous drone navigation in GPS denied area
 
@@ -92,3 +92,4 @@ Real-to-sim and sim-to-real research
 AI-driven robotics prototyping
 
 The project is designed to grow into a fully customizable autonomy research environment.
+
